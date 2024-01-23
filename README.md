@@ -1,61 +1,34 @@
-Project Overview: Data-Driven Web Application
+Project Description for Social Media Sentiment Analysis Tool
 
-Build a web application that dynamically presents data, allows users to interact with it, and performs data analysis based on user input or data changes.
+The Social Media Sentiment Analysis Tool (SMSAL) is an advanced, data-driven web application designed to analyze and visualize the sentiment of social media posts across platforms (initialy one). This tool leverages the power of Natural Language Processing (NLP) and sentiment analysis algorithms to process large volumes of social media data, providing real-time insights into public opinion and trends.
+Features
+
+    Real-Time Data Analysis: The tool continuously fetches and analyzes social media posts, offering up-to-date sentiment analysis.
+    Multi-Platform Support: Seamlessly integrates with various social media platforms such as Twitter, Facebook, and Instagram.
+    Sentiment Score Calculation: Utilizes NLP techniques to assign sentiment scores to posts, categorizing them as positive, negative, or neutral.
+    Interactive Dashboard: A user-friendly dashboard displays sentiment trends, frequency of mentions, and other key metrics in an easily digestible format.
+    Data Export Options: Allows users to export the analyzed data for further use or reporting.
+    Responsive Design: Ensures a seamless experience across all devices, including mobiles and tablets.
+
 Technologies
 
-    Frontend: React, JavaScript, HTML, CSS
-    Backend: Rust with Rocket framework
-    Database: PostgreSQL or SQLite 
-    Data Analysis: Rust for backend processing of data
+    Frontend: React.js for dynamic UI, complemented by HTML, CSS, and JavaScript.
+    Backend: Rust with Rocket framework, ensuring high performance and safety.
+    Data Analysis: Python-based sentiment analysis libraries and APIs.
+    Database: SQL or NoSQL database for storing analyzed data.
+    Deployment: Containerized using Docker and deployable on any cloud platform.
 
-Proposed Features
+Potential Use Cases
 
-    Dynamic Data Visualization: Display data in various formats (charts, graphs, tables).
-    User Interaction: Allow users to filter, sort, and interact with the data.
-    Data Analysis Module: Perform and display results of data analysis based on user input or automated processes.
-    Responsive Design: Ensure the application is usable on both desktop and mobile devices.
+    Market Research: Businesses can gauge public reaction to products or campaigns.
+    Public Opinion Tracking: For monitoring social issues or political campaigns.
+    Content Strategy: Assisting social media managers and content creators in understanding audience reception.
 
-Development Steps
+Goals and Future Enhancements
 
-    Setup and Configuration
-        Create a new Rust project with Rocket.
-        Set up a new React application.
-        Configure Rust to serve the React build.
-        Establish database connections.
+    Initially, the project aims to accurately analyze and display sentiment trends.
+    Future enhancements could include predictive analytics, broader platform integration, and advanced filtering options.
 
-    Backend Development
-        Define the data models and database schema.
-        Implement API endpoints in Rust for data retrieval, manipulation, and analysis.
-        Ensure proper error handling and data validation.
+Contributing
 
-    Frontend Development
-        Develop UI components in React.
-        Implement state management and API integration.
-        Create dynamic and interactive data visualizations.
-        Ensure responsiveness and accessibility.
-
-    Data Analysis Integration
-        Implement data processing and analysis algorithms in Rust.
-        Expose data analysis functionality via API endpoints.
-        Integrate analysis results into the frontend.
-
-    Testing and Debugging
-        Write unit and integration tests for both frontend and backend.
-        Debug and refine based on test results.
-
-    Deployment
-        Prepare the application for production.
-        Deploy to a suitable hosting platform.
-
-Schema Example
-
-    users table: Stores user information.
-    data_records table: Stores the main data to be visualized and analyzed.
-    analysis_results table: Stores results from data analysis operations.
-
-Deliverables
-
-    Rust project files (for Rocket and data analysis).
-    React project files (including JS, HTML, CSS).
-    Database schema files.
-    Test cases and documentation.
+This project is part of my personal portfolio and intentions of improving the quality of life of people around the world.
