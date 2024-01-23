@@ -1,6 +1,5 @@
 Project Overview: Data-Driven Web Application
 
-Goal
 Build a web application that dynamically presents data, allows users to interact with it, and performs data analysis based on user input or data changes.
 Technologies
 
